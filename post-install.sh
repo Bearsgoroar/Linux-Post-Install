@@ -48,6 +48,8 @@ maxretry = 4
 
 sudo service ssh restart  
 
+sudo apt-get install Byobu
+
 # Cleanup
 sudo apt autoremove
 sudo apt clean 
