@@ -5,8 +5,8 @@ sudo apt-get update
 # Regex is used to ensure that we do not install libssl1.0-dev, as it is a variant that is not required
 sudo apt-get install '^libssl1.0.[0-9]$' libunwind8 -y
 
-# Grab the latest tar.gz
-wget https://github.com/PowerShell/PowerShell/releases/download/v7.0.0/powershell-7.0.0-linux-arm32.tar.gz
+# Grab the latest tar.gz. This is for ARM CPUs
+wget https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-rc.2/powershell-7.0.0-rc.2-linux-arm64.tar.gz
 
 # Make folder to put powershell
 mkdir ~/powershell
