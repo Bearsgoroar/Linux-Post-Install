@@ -12,7 +12,7 @@ wget https://github.com/PowerShell/PowerShell/releases/download/v7.0.0-rc.2/powe
 mkdir ~/powershell
 
 # Unpack the tar.gz file
-tar -xvf ./powershell-7.0.0-linux-arm32.tar.gz -C ~/powershell
+tar -xvf ./powershell-7.0.0-rc.2-linux-arm64.tar.gz -C ~/powershell
 
 # Start PowerShell from bash with sudo to create a symbolic link
 sudo ~/powershell/pwsh -c New-Item -ItemType SymbolicLink -Path "/usr/bin/pwsh" -Target "\$PSHOME/pwsh" -Force
